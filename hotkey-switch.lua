@@ -18,3 +18,10 @@ function key_down(key)
 end
 
 add_hook("key_down", "key_down", key_down)
+--[[
+From Yoyo: 
+"You can remove the conditionals if you use:
+set_joint_state(player, joint, 3 - get_joint_info(player, joint))
+set_joint_state(player, joint, 7 - get_joint_info(player, joint))
+You should also check if joint ~= -1, that should fix the error when not hovering a joint."
+ --]]
