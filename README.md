@@ -5,3 +5,4 @@ Toribash Lua script that changes the Z (extends/contracts the joint) hotkey to Q
   * Lenárd Duncan
 * **Programming:**
   * Box
+  * Yoyo
